@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#60E180"
+    tools:context=".TotalFees"
+    tools:layout_editor_absoluteX="-1dp"
+    tools:layout_editor_absoluteY="-11dp">
+
+  <TextView
+      android:id="@+id/priceTextView"
+      android:layout_width="191dp"
+      android:layout_height="27dp"
+      android:text="R1500:"
+      android:textColor="#000000"
+      android:textSize="20sp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.172"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.471" />
+
+  <TextView
+      android:id="@+id/feesHeadTextView2"
+      android:layout_width="224dp"
+      android:layout_height="61dp"
+      android:text="TOTAL FEES:"
+      android:textColor="#000000"
+      android:textSize="34sp"
+      android:textStyle="bold"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.102"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.071" />
+
+  <TextView
+      android:id="@+id/textViewMoreDiscount2"
+      android:layout_width="215dp"
+      android:layout_height="58dp"
+      android:text="More Than Three Courses - 15% Discount"
+      android:textColor="#000000"
+      android:textSize="16sp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.069"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.321" />
+
+  <TextView
+      android:id="@+id/sixWeekHead"
+      android:layout_width="380dp"
+      android:layout_height="46dp"
+      android:text="SIX WEEK COURSES:"
+      android:textColor="#000000"
+      android:textSize="34sp"
+      android:textStyle="bold"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.129"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.728" />
+
+  <TextView
+      android:id="@+id/sixMonthHead"
+      android:layout_width="363dp"
+      android:layout_height="43dp"
+      android:text="SIX MONTH COURSES:"
+      android:textColor="#000000"
+      android:textSize="34sp"
+      android:textStyle="bold"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.229"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.383" />
+
+  <TextView
+      android:id="@+id/textViewOneDiscount"
+      android:layout_width="193dp"
+      android:layout_height="30dp"
+      android:text="One Course - No Discount"
+      android:textColor="#000000"
+      android:textSize="16sp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.073"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.174" />
+
+  <TextView
+      android:id="@+id/textViewTwoDiscount"
+      android:layout_width="202dp"
+      android:layout_height="33dp"
+      android:text="Two Courses - 5% Discount"
+      android:textColor="#000000"
+      android:textSize="16sp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.065"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.218" />
+
+  <TextView
+      android:id="@+id/durationTextView"
+      android:layout_width="303dp"
+      android:layout_height="43dp"
+      android:text="Duration of Six-Month Courses - 12 Weeks"
+      android:textColor="#000000"
+      android:textSize="16sp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.101"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.446" />
+
+  <TextView
+      android:id="@+id/textViewThreeDiscount"
+      android:layout_width="216dp"
+      android:layout_height="39dp"
+      android:text="Three Courses - 10% Discount"
+      android:textColor="#000000"
+      android:textSize="16sp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.076"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.267" />
+
+  <TextView
+      android:id="@+id/priceTextView1"
+      android:layout_width="194dp"
+      android:layout_height="25dp"
+      android:text="R750:"
+      android:textColor="#000000"
+      android:textSize="20sp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.17"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.771" />
+
+  <Button
+      android:id="@+id/menuButton3"
+      android:layout_width="24dp"
+      android:layout_height="23dp"
+      android:background="@drawable/menu"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.905"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.035"
+      tools:ignore="SpeakableTextPresentCheck" />
+
+  <TextView
+      android:id="@+id/logoTextView4"
+      android:layout_width="184dp"
+      android:layout_height="162dp"
+      android:background="@drawable/logo"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="1.0"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.105" />
+
+  <CheckBox
+      android:id="@+id/checkBoxLifeSkills"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:buttonTint="@color/black"
+      android:text="Life Skills"
+      android:textColor="#000000"
+      android:textStyle="bold"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.175"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.65" />
+
+  <CheckBox
+      android:id="@+id/checkBoxLandscaping"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:buttonTint="@color/black"
+      android:text="Landscaping"
+      android:textColor="#000000"
+      android:textStyle="bold"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.187"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.605" />
+
+  <CheckBox
+      android:id="@+id/checkBoxSewing"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:buttonTint="@color/black"
+      android:text="Sewing"
+      android:textColor="#000000"
+      android:textStyle="bold"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.168"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.559" />
+
+  <CheckBox
+      android:id="@+id/checkBoxFirstAid"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:buttonTint="@color/black"
+      android:text="First Aid"
+      android:textColor="#000000"
+      android:textStyle="bold"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.17"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.513" />
+
+  <CheckBox
+      android:id="@+id/checkBoxGardenMaintenance"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:buttonTint="@color/black"
+      android:text="Garden Maintenance"
+      android:textColor="#000000"
+      android:textStyle="bold"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.204"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.912" />
+
+  <CheckBox
+      android:id="@+id/checkBoxCooking"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:buttonTint="@color/black"
+      android:text="Cooking"
+      android:textColor="#000000"
+      android:textStyle="bold"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.155"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.866" />
+
+  <CheckBox
+      android:id="@+id/checkBoxChildMinding"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:buttonTint="@color/black"
+      android:text="Child Minding"
+      android:textColor="#000000"
+      android:textStyle="bold"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.173"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.821" />
+
+  <TextView
+      android:id="@+id/textViewTotal"
+      android:layout_width="297dp"
+      android:layout_height="30dp"
+      android:text="TextView"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.508"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.977" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
